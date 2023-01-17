@@ -1,0 +1,25 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: #00003a;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    text-align:center;
+    .card {
+        width: calc(100% / 5 - 40px);
+        height: 250px;
+        margin: 50px 10px;
+        text-align: center;
+    }
+    .card:hover{
+        cursor:pointer;
+        border-color: #f1c036;
+        transform: scale(105%);
+    }
+}
